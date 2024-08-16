@@ -11,8 +11,11 @@ public class Main {
         nt1.start();
 
         // Approach 2 : by extending Thread Class
-        NewMain nm = new NewMain();
-        nm.start();
+        NewMain nm = new NewMain(); // State: NEW
+        nm.start();                 // State: RUNNABLE
+                                    // State: RUNNING
+                                    // State: BLOCKED/WAITING
+                                    // State: TERMINATED
 
         // thread for main
         for (int i = 0; i < 100; i++) {
