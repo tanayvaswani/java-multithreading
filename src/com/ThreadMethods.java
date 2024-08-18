@@ -48,3 +48,4 @@ public class ThreadMethods extends Thread {
 // - setPriority()
 // - interrupt()
 // - yield()
+// - setDaemon()
