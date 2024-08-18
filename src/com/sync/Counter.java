@@ -1,4 +1,4 @@
-package com;
+package com.sync;
 
 public class Counter {
 
